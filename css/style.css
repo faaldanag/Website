@@ -1,0 +1,105 @@
+/* Header
+ color: #84DCCF;*/
+
+ html {
+    box-sizing: border-box;
+  }
+  *,*::before,*::after{
+    box-sizing: inherit;
+  }
+  body, html {
+    height: 100%;
+    font-family:  'Roboto Condensed', sans-serif;;
+  }
+
+/* Navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #80BEAF;
+}
+nav a {
+    margin-left: 20px;
+}
+
+  .parallax {
+
+    background-image: url("../img/headjpg.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   .parallax h1 {
+       font-size: 100px;
+        font-weight: bold;
+        padding-top: 20%;
+        margin: 0;
+        color: #80BEAF;
+  }
+  .parallax h2 {
+    color: #80BEAF;
+    margin: 0;
+    padding-top: 20px;
+      
+  }
+  /* Section */
+  section {
+      padding: 6%;
+  }
+  section h2 {
+    color: #80BEAF;
+    font-weight: 700;
+  }
+  section p{
+      font-size: 25px;
+  }
+
+
+    section .card {
+       border: 1px solid  #80BEAF; 
+       border-radius: 1%;
+}
+
+
+  /* Footer */
+  footer {
+      background-color:#343A40;
+      color: white;
+  }
+  footer h3{
+      color: #80BEAF;
+  }
+  footer span {
+      color: white;
+      margin: 0;
+      padding: 0;
+      font-weight: 600;
+      }
+
+   .icon{
+       width: 70px;
+       height: 70px;
+       padding: 5px;
+       margin-left:2%;
+   }   
+
+
+
+
+
+
+
+
+
+   /*Contacto */
+
+   .contacto div .col-sm-8{
+       margin-left: -20px;
+   }
+   .contacto div .col-sm-4{
+}
