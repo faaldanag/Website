@@ -12,6 +12,17 @@
     font-family:  'Roboto Condensed', sans-serif;;
   }
 
+
+  section a:hover{
+    text-decoration: none;
+    color: #80BEAF;
+  }
+
+  section a{
+    text-decoration: none;
+    color: #80BEAF;
+  }
+
 /* Navbar */
 
 .navbar-dark .navbar-nav .nav-link {
@@ -35,7 +46,7 @@ nav a {
     background-size: cover;
   }
    .parallax h1 {
-       font-size: 100px;
+       font-size: 8vw;
         font-weight: bold;
         padding-top: 20%;
         margin: 0;
@@ -96,10 +107,4 @@ nav a {
 
 
 
-   /*Contacto */
-
-   .contacto div .col-sm-8{
-       margin-left: -20px;
-   }
-   .contacto div .col-sm-4{
-}
+  
